@@ -1,16 +1,30 @@
-name:Bitcoin Clicker
-by:Lck0ut
-created:7/1/2019
-version:0.0.1
-building cost increase:125%
-building cost refund:75%
-use default
-*Raspberry Pi
-  name:Mine a Bitcoin
-  desc:Click this to mine a bitcoin
-  on click:yield 0.00000001 btc
-
-*btc
-  name:BTC
-  desc:This is the bitcoin you have mined!
-  show earned
+Let's make a game
+  name:Bitcoin Clicker
+  by:Lck0ut
+the stars!
+  created:7/1/2019
+  version:0.0.1
+Settings
+  building cost increase:125%
+  building cost refund:75%
+Layout
+  use default
+Buttons
+  *Raspberry Pi
+    name:Mine a Bitcoin
+    desc:Click this to mine a bitcoin
+    on click:yield 0.00000001 btc
+Resources
+  *btc
+    name:BTC
+    desc:This is the bitcoin you have mined!
+    show earned
+Buildings
+  *TEMPLATE
+    on click:anim glow
+  *Graph Paper
+    name:Graph Paper
+    desc:Use graph paper and a pencil to mine for bitcoin!
+    cost:0.0000001 btc
+    on tick:yield 0.00000001 btc
+    unlocked
