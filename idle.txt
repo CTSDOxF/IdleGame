@@ -1,0 +1,17 @@
+name:Bitcoin Clicker
+by:Lck0ut
+created:7/1/2019
+version:0.0.1
+background:
+building cost increase:125%
+building cost refund:75%
+use default
+*Raspberry Pi
+  name:Mine a Bitcoin
+  desc:Click this to mine a bitcoin
+  on click:yield 0.00000001 btc
+
+*btc
+  name:BTC
+  desc:This is the bitcoin you have mined!
+  show earned
