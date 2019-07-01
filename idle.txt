@@ -1,4 +1,4 @@
-Let's make a game
+Let's make a game!
   name:Bitcoin Clicker
   by:Lck0ut
 the stars!
