@@ -1,8 +1,6 @@
 Let's make a game!
   name:Bitcoin Clicker
   by:Lck0ut
-  
-the stars!
   created:7/1/2019
   version:0.0.1
   
